@@ -6,7 +6,12 @@ import { Photo } from "@/components/photo";
 import { Reveal } from "@/components/reveal";
 import { StoryScroll, type Chapter } from "@/components/story-scroll";
 
-export const metadata: Metadata = { title: "About", description: "Why Impact Matrix exists, who it is for and how it works." };
+export const metadata: Metadata = {
+  title: "About",
+  description: "Why Impact Matrix exists, who it is for and how it connects Bangladeshi projects with the people who want to support them.",
+  alternates: { canonical: "/about" },
+  openGraph: { title: "About", description: "Why Impact Matrix exists, who it is for and how it connects Bangladeshi projects with the people who want to support them.", url: "/about" },
+};
 
 const chapters: Chapter[] = [
   {

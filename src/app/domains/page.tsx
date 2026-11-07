@@ -6,7 +6,12 @@ import { Photo } from "@/components/photo";
 import { Reveal } from "@/components/reveal";
 import { domains } from "@/lib/domains";
 
-export const metadata: Metadata = { title: "Domains", description: "The six domains Impact Matrix supports in Bangladesh." };
+export const metadata: Metadata = {
+  title: "Domains: education, health, climate and more",
+  description: "Explore the six domains Impact Matrix supports in Bangladesh: education, health, environment and climate, disaster response, livelihood and inclusion, and sports and culture.",
+  alternates: { canonical: "/domains" },
+  openGraph: { title: "Domains: education, health, climate and more", description: "Explore the six domains Impact Matrix supports in Bangladesh: education, health, environment and climate, disaster response, livelihood and inclusion, and sports and culture.", url: "/domains" },
+};
 
 export default function Domains() {
   return (

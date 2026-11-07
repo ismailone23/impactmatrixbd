@@ -3,7 +3,12 @@ import { ContactForm } from "@/components/contact-form";
 import { Photo } from "@/components/photo";
 import { Reveal } from "@/components/reveal";
 
-export const metadata: Metadata = { title: "Contact", description: "Get in touch with Impact Matrix." };
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Run a project or want to support one in Bangladesh? Send Impact Matrix a few lines and we will reply by email.",
+  alternates: { canonical: "/contact" },
+  openGraph: { title: "Contact", description: "Run a project or want to support one in Bangladesh? Send Impact Matrix a few lines and we will reply by email.", url: "/contact" },
+};
 
 export default function Contact() {
   return (

@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 import { credits } from "@/lib/domains";
 
-export const metadata: Metadata = { title: "Terms & Conditions", description: "The terms for using the Impact Matrix website." };
+export const metadata: Metadata = {
+  title: "Terms & Conditions",
+  description: "The terms for using the Impact Matrix website, including photo credits.",
+  alternates: { canonical: "/terms" },
+  openGraph: { title: "Terms & Conditions", description: "The terms for using the Impact Matrix website, including photo credits.", url: "/terms" },
+};
 
 const mail = <a href="mailto:info@gryffindorlab.com">info@gryffindorlab.com</a>;
 

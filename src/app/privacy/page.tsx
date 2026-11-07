@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal-page";
 
-export const metadata: Metadata = { title: "Privacy Policy", description: "How Impact Matrix collects, uses and protects your information." };
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "How Impact Matrix collects, uses and protects the information you send through this website.",
+  alternates: { canonical: "/privacy" },
+  openGraph: { title: "Privacy Policy", description: "How Impact Matrix collects, uses and protects the information you send through this website.", url: "/privacy" },
+};
 
 const mail = <a href="mailto:info@gryffindorlab.com">info@gryffindorlab.com</a>;
 

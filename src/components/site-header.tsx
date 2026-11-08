@@ -17,9 +17,9 @@ export function SiteHeader() {
   // On the landing page the bar is clear over the forest, then turns solid once the hero is behind it.
   useEffect(() => {
     if (!home) return;
-    // the hero is pinned for 240% of the screen while the intro plays, so the bar stays clear until the hero has scrolled away
+    // the hero is pinned for 150% of the screen while the intro plays, so the bar stays clear until the hero has scrolled away
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const onScroll = () => setPast(window.scrollY > window.innerHeight * (still ? 1 : 3.4) - 96);
+    const onScroll = () => setPast(window.scrollY > window.innerHeight * (still ? 1 : 2.5) - 96);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);

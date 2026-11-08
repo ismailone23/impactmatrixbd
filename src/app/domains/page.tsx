@@ -26,11 +26,11 @@ export default function Domains() {
         <div className="space-y-20">
           {domains.map((d) => (
             <section key={d.slug} id={d.slug} className="scroll-mt-24">
-              <Reveal className="grid gap-8 md:grid-cols-[1.1fr_1fr] md:items-center">
-                <Photo src={d.photo} alt={d.alt} priority={d.slug === "education"} sizes="(min-width:1024px) 36vw, 100vw" className="aspect-[4/3] w-full" />
+              <Reveal className="grid gap-8">
+                <Photo src={d.photo} alt={d.alt} priority={d.slug === "education"} sizes="(min-width:1024px) 70vw, 100vw" className="aspect-[16/9] w-full" />
                 <div>
                   <h2 className="text-4xl leading-[1.05] sm:text-5xl">{d.name}</h2>
-                  <p className="mt-4 max-w-md text-xl leading-8 text-ink/80">{d.line}</p>
+                  <p className="mt-4 max-w-xl text-xl leading-8 text-ink/80">{d.line}</p>
                   <p className="mt-8 text-lg font-medium">Projects here include</p>
                   <ul className="mt-3 space-y-2 text-lg text-ink/80">
                     {d.scope.map((s) => <li key={s}>{s}</li>)}

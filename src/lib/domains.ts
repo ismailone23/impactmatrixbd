@@ -13,10 +13,10 @@ export const domains = [
     slug: "education",
     name: "Education",
     icon: GraduationCap,
-    photo: "/img/students.jpg",
+    photo: "/img/dom-edu-school.jpg",
     bg: "#1f6a9c",
     fg: "#ffffff",
-    alt: "Smiling students in a rural schoolyard",
+    alt: "A blue single-storey primary school with painted murals, shaded by trees, in rural Bangladesh",
     line: "Schools, scholarships and learning that reaches every district.",
     scope: [
       "School construction and repair",
@@ -29,10 +29,10 @@ export const domains = [
     slug: "health",
     name: "Health",
     icon: HeartPulse,
-    photo: "/img/midwife.jpg",
+    photo: "/img/dom-health-nurse.jpg",
     bg: "#0a0a0a",
     fg: "#ffffff",
-    alt: "A smiling midwife in a bright headscarf holds a newborn baby",
+    alt: "Collage titled Healthcare System in Bangladesh: Challenges and Opportunities, with a doctor holding a clipboard and a nurse examining a baby in her mother's arms",
     line: "Care close to home, from village clinics to mother and child health.",
     scope: [
       "Primary care and medical camps",
@@ -45,10 +45,10 @@ export const domains = [
     slug: "environment",
     name: "Environment and climate",
     icon: Leaf,
-    photo: "/img/sundarbans.jpg",
+    photo: "/img/dom-env.jpg",
     bg: "#1f6a9c",
     fg: "#ffffff",
-    alt: "A mangrove-lined river in the Sundarbans forest",
+    alt: "A boy stands on a riverbank looking across the water to a dense forested hillside in Rangamati",
     line: "Protecting rivers, forests and coastlines that people live from.",
     scope: [
       "Tree planting and forest cover",
@@ -61,10 +61,10 @@ export const domains = [
     slug: "disaster",
     name: "Disaster response",
     icon: LifeBuoy,
-    photo: "/img/flood.jpg",
+    photo: "/img/dom-disaster.jpg",
     bg: "#0a0a0a",
     fg: "#ffffff",
-    alt: "Women and a child wade through a flooded village",
+    alt: "Aerial view of a village submerged by floodwater, with tin roofs and boats between the houses",
     line: "Relief when floods and cyclones hit, and readiness before they do.",
     scope: [
       "Flood and cyclone relief",
@@ -77,10 +77,10 @@ export const domains = [
     slug: "livelihood",
     name: "Livelihood and inclusion",
     icon: Sprout,
-    photo: "/img/loom.jpg",
+    photo: "/img/dom-live.jpg",
     bg: "#1f6a9c",
     fg: "#ffffff",
-    alt: "A woman weaves cloth on a traditional handloom",
+    alt: "A farmer in a pink shirt gathers rice plants in a bright green paddy field",
     line: "Skills, tools and small enterprise that lift families for good.",
     scope: [
       "Skills and vocational training",
@@ -93,10 +93,10 @@ export const domains = [
     slug: "sports-culture",
     name: "Sports and culture",
     icon: Trophy,
-    photo: "/img/village-play.jpg",
+    photo: "/img/dom-sport.jpg",
     bg: "#0a0a0a",
     fg: "#ffffff",
-    alt: "Children play together outside a village home",
+    alt: "Two boys play cricket barefoot with a wooden bat on a dusty ground",
     line: "Playgrounds, teams, music and heritage that hold a community together.",
     scope: [
       "Youth sports and playgrounds",
@@ -108,6 +108,46 @@ export const domains = [
 ] as const;
 
 export const credits = [
+  [
+    "Healthcare System in Bangladesh: Challenges & Opportunities, article cover (LinkedIn)",
+    "Source: LinkedIn article author, not identified",
+    "https://media.licdn.com/dms/image/v2/D5612AQED4pttt2qKiQ/article-cover_image-shrink_720_1280/B56ZuOXIrqJAAI-/0/1767619991147",
+  ],
+  [
+    "Government primary school campus (alteryouth.blob.core.windows.net)",
+    "Source: Alter Youth media library",
+    "https://alteryouth.blob.core.windows.net/media/schools/campus/school_d50706ef-ef48-4d13-8cdb-62bd3524b53e_campus_FUJI1192.JPG",
+  ],
+  [
+    "Young teacher with her students in an outdoor classroom, Rangpur",
+    "Ian Taylor",
+    "https://www.pexels.com/photo/36666949/",
+  ],
+  [
+    "Mother and baby in Manikganj",
+    "nannuariyan",
+    "https://www.pexels.com/photo/32878346/",
+  ],
+  [
+    "Scenic Riverbank View in Rangamati, Bangladesh",
+    "Sultan Ahmed",
+    "https://www.pexels.com/photo/scenic-riverbank-view-in-rangamati-bangladesh-29816292/",
+  ],
+  [
+    "Aerial view of a flooded village",
+    "Muhammad Amdad Hossain",
+    "https://www.pexels.com/photo/39164204/",
+  ],
+  [
+    "South Asian Farmer Harvesting Paddy in Bangladesh",
+    "masudar rahman",
+    "https://www.pexels.com/photo/south-asian-farmer-harvesting-paddy-in-bangladesh-36176037/",
+  ],
+  [
+    "Boys Playing Cricket Barefoot",
+    "Simon Reza",
+    "https://www.pexels.com/photo/boys-playing-cricket-barefoot-9067719/",
+  ],
   [
     "Joyful Bangladeshi Boys on Playground",
     "Mijanur Rahman Niloy",

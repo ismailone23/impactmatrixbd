@@ -26,7 +26,7 @@ export function Hero() {
       const tl = gsap.timeline({
         defaults: { ease: "none" },
         scrollTrigger: {
-          trigger: root.current, start: "top top", end: "+=240%", pin: true, scrub: 0.6, anticipatePin: 1,
+          trigger: root.current, start: "top top", end: "+=150%", pin: true, scrub: 0.6, anticipatePin: 1,
           onUpdate: (st) => { html.dataset.intro = st.progress < 0.25 ? "on" : "off"; },
         },
       });
@@ -35,7 +35,7 @@ export function Hero() {
         .to(".intro-cue", { opacity: 0, duration: 0.1 }, 0)
         .to(".hero-content", { opacity: 1, y: 0, duration: 0.3 }, 0.55)
         // hold: the hero stays pinned and readable before the page scrolls on
-        .to({}, { duration: 1 }, 0.85);
+        .to({}, { duration: 0.3 }, 0.85);
       return () => { delete html.dataset.intro; };
     });
     mm.add("(prefers-reduced-motion: reduce)", () => { gsap.set(".intro-layer", { display: "none" }); });
